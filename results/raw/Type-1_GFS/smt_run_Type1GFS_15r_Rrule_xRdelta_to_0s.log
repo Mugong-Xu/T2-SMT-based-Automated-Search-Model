@@ -1,0 +1,12 @@
+project: Type-1 GFS
+script: smt_run_Type1GFS_15r_Rrule_xRdelta_to_0s.py
+command: /usr/bin/python3 smt_run_Type1GFS_15r_Rrule_xRdelta_to_0s.py
+started_utc: 2026-08-24T11:35:55+00:00
+duration_seconds: 0.136829
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+[check-sat] = unsat
+===== STDERR =====
+(no stderr)

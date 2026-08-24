@@ -1,0 +1,72 @@
+project: NEW_IV_ENC
+script: td_8r_New_IV.py
+command: /usr/bin/python3 td_8r_New_IV.py
+started_utc: 2026-08-24T11:35:55+00:00
+duration_seconds: 0.042598
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+=== NEW_IV_ENC（8轮）TD 逐轮符号 ===
+Round 0:
+  u0^0: 0
+  u1^0: 0
+  u2^0: a[a_flag=0]
+  u3^0: s
+Round 1:
+  u0^1: 0
+  u1^1: a[a_flag=0]
+  u2^1: s
+  u3^1: 0
+Round 2:
+  u0^2: a[a_flag=0]
+  u1^2: s
+  u2^2: 0
+  u3^2: 0
+Round 3:
+  u0^3: 0_s
+  u1^3: *
+  u2^3: 0
+  u3^3: *<fromR_a>
+Round 4:
+  u0^4: *
+  u1^4: 0_s
+  u2^4: *<fromR_a>
+  u3^4: 0_s
+Round 5:
+  u0^5: *
+  u1^5: *
+  u2^5: 0_s
+  u3^5: *
+Round 6:
+  u0^6: *
+  u1^6: *
+  u2^6: *
+  u3^6: *
+Round 7:
+  u0^7: *
+  u1^7: *
+  u2^7: *
+  u3^7: *
+Round 8:
+  u0^8: *
+  u1^8: *
+  u2^8: *
+  u3^8: *
+
+=== 剪枝过程 ===
+初始幸存分支（Round 8）: {u0, u1, u2, u3}
+Round 8 -> Round 7: {u0, u1, u2, u3} -> {u0, u1, u2, u3}
+Round 7 -> Round 6: {u0, u1, u2, u3} -> {u1, u2, u3}
+Round 6 -> Round 5: {u1, u2, u3} -> {u2, u3}
+Round 5 -> Round 4: {u2, u3} -> {u3}
+
+=== 剪枝结果 ===
+最终剩余分支: u3^4
+对应符号: 0_s
+
+=== 量子区分器判定 ===
+量子区分器存在?: 是
+剪枝判定条件（终止于 u3^4 == 0_s）: 满足
+===== STDERR =====
+(no stderr)

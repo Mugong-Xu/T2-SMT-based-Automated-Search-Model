@@ -1,0 +1,24 @@
+project: NEW_III
+script: bench_newstructIII_qd_from_td.py
+command: /usr/bin/python3 bench_newstructIII_qd_from_td.py
+started_utc: 2026-08-24T11:35:24+00:00
+duration_seconds: 6.825760
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+TD 锚点轮: Round 0
+重复次数: 100
+量子区分器存在?: 是
+解密-剪枝最终分支: u1^10
+对应符号: 0s
+
+== 平均耗时（秒）==
+构图        : 0.011190
+锚点断言   : 0.000039
+求解 (SMT) : 0.046446
+总耗时     : 0.057675
+
+整体耗时(含循环开销): 6.567350 s
+===== STDERR =====
+(no stderr)

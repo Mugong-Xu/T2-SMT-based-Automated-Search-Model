@@ -1,0 +1,20 @@
+project: GFS-4F
+script: td2smt_GFS4F_from_r4_sliced_subset.py
+command: /usr/bin/python3 td2smt_GFS4F_from_r4_sliced_subset.py
+started_utc: 2026-08-24T11:34:51+00:00
+duration_seconds: 0.086308
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+== TD (Round 0..4) ==
+Round 0 : u0^0=s, u1^0=a[a_flag=0], u2^0=0, u3^0=0, u4^0=0, u5^0=0, u6^0=0, u7^0=0
+Round 1 : u0^1=0, u1^1=s, u2^1=a[a_flag=0], u3^1=0, u4^1=0, u5^1=0, u6^1=0, u7^1=0
+Round 2 : u0^2=0, u1^2=0, u2^2=s, u3^2=a[a_flag=0], u4^2=0, u5^2=0, u6^2=0, u7^2=0
+Round 3 : u0^3=0, u1^3=0, u2^3=0, u3^3=s, u4^3=a[a_flag=0], u5^3=0, u6^3=0, u7^3=0
+Round 4 : u0^4=0, u1^4=0, u2^4=0, u3^4=0, u4^4=0_s, u5^4=a[a_flag=0], u6^4=0, u7^4=0
+
+check-sat: unsat
+UNSAT/UNKNOWN，无法打印后续轮。
+===== STDERR =====
+(no stderr)

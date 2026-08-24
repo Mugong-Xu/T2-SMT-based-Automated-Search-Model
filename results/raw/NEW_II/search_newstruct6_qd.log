@@ -1,0 +1,27 @@
+project: NEW_II
+script: search_newstruct6_qd.py
+command: /usr/bin/python3 search_newstruct6_qd.py
+started_utc: 2026-08-24T11:35:18+00:00
+duration_seconds: 0.099665
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+check-sat: sat
+
+包含量子区分器？ 是
+
+== Round 6（SMT）取值/⊥ ==
+  U0_6: ⊥
+  U1_6: ⊥
+  U2_6: #b10010  => R(δ) ⊕ 0s
+  U3_6: ⊥
+
+== 计时统计 ==
+构图        : 0.006685 s
+初值断言   : 0.000015 s
+求解 (SMT) : 0.022544 s
+取值+打印  : 0.001290 s
+总耗时     : 0.030601 s
+===== STDERR =====
+(no stderr)

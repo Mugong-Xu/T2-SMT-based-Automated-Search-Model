@@ -1,0 +1,23 @@
+project: NEW_IV
+script: smt_run_new_structure_IV_9r.py
+command: /usr/bin/python3 smt_run_new_structure_IV_9r.py
+started_utc: 2026-08-24T11:35:48+00:00
+duration_seconds: 0.107543
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+check-sat: sat
+Model file: /mnt/e/ChatGPT_Work/ToSC_huiyi/T^2-SMT-based Automated Search Model/NEW_IV/smt_model_distinguish_new_IV.py
+Bit order: [0s, R(x), x, R(δ), δ]  (msb..lsb)
+Round  1:  u0=    #b00010  => R(δ)  u1=       #b00000  => 0  u2=       #b00100  => x  u3=       #b00000  => 0
+Round  2:  u0=       #b00000  => 0  u1=    #b00010  => R(δ)  u2=       #b00000  => 0  u3=       #b00100  => x
+Round  3:  u0=    #b01000  => R(x)  u1=       #b00100  => x  u2=#b00110  => R(δ) ⊕ x  u3=       #b00000  => 0
+Round  4:  u0=       #b00000  => 0  u1=    #b01000  => R(x)  u2=       #b00100  => x  u3=#b00110  => R(δ) ⊕ x
+Round  5:  u0=      #b10000  => 0s  u1=#b00110  => R(δ) ⊕ x  u2=#b01110  => R(δ) ⊕ x ⊕ R(x)  u3=       #b00100  => x
+Round  6:  u0=    #b01000  => R(x)  u1=  #b10100  => x ⊕ 0s  u2=    #b00010  => R(δ)  u3=#b01110  => R(δ) ⊕ x ⊕ R(x)
+Round  7:  u0=                   ⊥  u1=#b01110  => R(δ) ⊕ x ⊕ R(x)  u2=#b11010  => R(δ) ⊕ R(x) ⊕ 0s  u3=    #b00010  => R(δ)
+Round  8:  u0=    #b00010  => R(δ)  u1=                   ⊥  u2=#b01110  => R(δ) ⊕ x ⊕ R(x)  u3=#b11010  => R(δ) ⊕ R(x) ⊕ 0s
+Round  9:  u0=                   ⊥  u1=#b11010  => R(δ) ⊕ R(x) ⊕ 0s  u2=                   ⊥  u3=#b01110  => R(δ) ⊕ x ⊕ R(x)
+===== STDERR =====
+(no stderr)

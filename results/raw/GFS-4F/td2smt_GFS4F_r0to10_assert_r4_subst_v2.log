@@ -1,0 +1,29 @@
+project: GFS-4F
+script: td2smt_GFS4F_r0to10_assert_r4_subst_v2.py
+command: /usr/bin/python3 td2smt_GFS4F_r0to10_assert_r4_subst_v2.py
+started_utc: 2026-08-24T11:35:11+00:00
+duration_seconds: 0.285160
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+== TD (Round 0..4) ==
+Round 0 : u0^0=s, u1^0=a[a_flag=0], u2^0=0, u3^0=0, u4^0=0, u5^0=0, u6^0=0, u7^0=0
+Round 1 : u0^1=0, u1^1=s, u2^1=a[a_flag=0], u3^1=0, u4^1=0, u5^1=0, u6^1=0, u7^1=0
+Round 2 : u0^2=0, u1^2=0, u2^2=s, u3^2=a[a_flag=0], u4^2=0, u5^2=0, u6^2=0, u7^2=0
+Round 3 : u0^3=0, u1^3=0, u2^3=0, u3^3=s, u4^3=a[a_flag=0], u5^3=0, u6^3=0, u7^3=0
+Round 4 : u0^4=0, u1^4=0, u2^4=0, u3^4=0, u4^4=0_s, u5^4=a[a_flag=0], u6^4=0, u7^4=0
+
+TD→SMT Round-4 masks (new rules): [0, 0, 0, 0, 6, 1, 0, 0]
+
+check-sat: sat
+
+== SMT (Round 5..10) ==
+Round 5 : u0^5=0, u1^5=0, u2^5=0, u3^5=R(δ), u4^5=0s, u5^5=R(δ) ⊕ x, u6^5=δ, u7^5=0
+Round 6 : u0^6=0, u1^6=0, u2^6=R(δ), u3^6=⊥, u4^6=R(δ) ⊕ 0s, u5^6=0s, u6^6=R(δ) ⊕ x, u7^6=δ
+Round 7 : u0^7=δ, u1^7=R(δ), u2^7=⊥, u3^7=R(δ) ⊕ 0s, u4^7=⊥, u5^7=R(δ) ⊕ 0s, u6^7=0s, u7^7=R(δ) ⊕ x
+Round 8 : u0^8=R(δ) ⊕ x, u1^8=⊥, u2^8=R(δ) ⊕ 0s, u3^8=⊥, u4^8=⊥, u5^8=⊥, u6^8=R(δ) ⊕ 0s, u7^8=0s
+Round 9 : u0^9=0s, u1^9=R(δ) ⊕ x ⊕ 0s, u2^9=⊥, u3^9=⊥, u4^9=⊥, u5^9=⊥, u6^9=⊥, u7^9=R(δ) ⊕ 0s
+Round 10 : u0^10=R(δ) ⊕ 0s, u1^10=⊥, u2^10=⊥, u3^10=⊥, u4^10=⊥, u5^10=⊥, u6^10=⊥, u7^10=⊥
+===== STDERR =====
+(no stderr)

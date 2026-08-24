@@ -1,0 +1,51 @@
+project,script,status,exit_code,duration_seconds,log
+GFS-4F,smt_run_GFS4F_10r.py,PASS,0,0.401583,raw/GFS-4F/smt_run_GFS4F_10r.log
+GFS-4F,smt_run_GFS4F_10r_bench.py,PASS,0,19.862678,raw/GFS-4F/smt_run_GFS4F_10r_bench.log
+GFS-4F,td2smt_GFS4F_from_r4_sliced.py,PASS,0,0.108763,raw/GFS-4F/td2smt_GFS4F_from_r4_sliced.log
+GFS-4F,td2smt_GFS4F_from_r4_sliced_subset.py,PASS,0,0.086308,raw/GFS-4F/td2smt_GFS4F_from_r4_sliced_subset.log
+GFS-4F,td2smt_GFS4F_r0to10_assert_r4_bench.py,PASS,0,19.842654,raw/GFS-4F/td2smt_GFS4F_r0to10_assert_r4_bench.log
+GFS-4F,td2smt_GFS4F_r0to10_assert_r4_subst_v2.py,PASS,0,0.285160,raw/GFS-4F/td2smt_GFS4F_r0to10_assert_r4_subst_v2.log
+GFS-4F,td_trunc.py,PASS,0,0.039738,raw/GFS-4F/td_trunc.log
+NEW_II,bench_newstruct6_qd.py,PASS,0,3.260697,raw/NEW_II/bench_newstruct6_qd.log
+NEW_II,bench_verify_newstruct6.py,PASS,0,3.223541,raw/NEW_II/bench_verify_newstruct6.log
+NEW_II,search_newstruct6_qd.py,PASS,0,0.099665,raw/NEW_II/search_newstruct6_qd.log
+NEW_II,td_trunc.py,PASS,0,0.039512,raw/NEW_II/td_trunc.log
+NEW_II,verify_newstruct6_with_smt.py,PASS,0,0.116847,raw/NEW_II/verify_newstruct6_with_smt.log
+NEW_III,bench_14r_newstruct_III_qcpa.py,PASS,0,0.115550,raw/NEW_III/bench_14r_newstruct_III_qcpa.log
+NEW_III,bench_newstructIII_qd.py,PASS,0,5.886133,raw/NEW_III/bench_newstructIII_qd.log
+NEW_III,bench_newstructIII_qd_from_td.py,PASS,0,6.825760,raw/NEW_III/bench_newstructIII_qd_from_td.log
+NEW_III,bench_newstructIII_qd_from_td_sliced.py,PASS,0,6.937255,raw/NEW_III/bench_newstructIII_qd_from_td_sliced.log
+NEW_III,bench_newstructIII_qd_td_growing.py,PASS,0,0.775839,raw/NEW_III/bench_newstructIII_qd_td_growing.log
+NEW_III,bencmark_smt_12r_new_structure_III_qcpa.py,PASS,0,4.638947,raw/NEW_III/bencmark_smt_12r_new_structure_III_qcpa.log
+NEW_III,smt_12r_new_structure_III_qcpa.py,PASS,0,0.121789,raw/NEW_III/smt_12r_new_structure_III_qcpa.log
+NEW_III,smt_14r_new_structure_III_qcpa.py,PASS,0,0.144638,raw/NEW_III/smt_14r_new_structure_III_qcpa.log
+NEW_III,td_14r_newstruct_III_qcpa.py,PASS,0,0.043592,raw/NEW_III/td_14r_newstruct_III_qcpa.log
+NEW_III,td_trunc.py,PASS,0,0.039982,raw/NEW_III/td_trunc.log
+NEW_IV,smt_bench_new_structure_IV_11r.py,PASS,0,4.004369,raw/NEW_IV/smt_bench_new_structure_IV_11r.log
+NEW_IV,smt_run_new_structure_IV_11r.py,PASS,0,0.118092,raw/NEW_IV/smt_run_new_structure_IV_11r.log
+NEW_IV,smt_run_new_structure_IV_9r.py,PASS,0,0.107543,raw/NEW_IV/smt_run_new_structure_IV_9r.log
+NEW_IV,td_smt_benchmark_New_IV.py,PASS,0,1.504296,raw/NEW_IV/td_smt_benchmark_New_IV.log
+NEW_IV,td_td2smt_run_New_IV.py,PASS,0,0.098985,raw/NEW_IV/td_td2smt_run_New_IV.log
+NEW_IV,td_trunc_New_IV.py,PASS,0,0.042065,raw/NEW_IV/td_trunc_New_IV.log
+NEW_IV_ENC,bench_smt_5r_New_IV.py,PASS,0,1.897268,raw/NEW_IV_ENC/bench_smt_5r_New_IV.log
+NEW_IV_ENC,bench_smt_8r_New_IV.py,PASS,0,2.917064,raw/NEW_IV_ENC/bench_smt_8r_New_IV.log
+NEW_IV_ENC,bench_td_8r_New_IV.py,PASS,0,0.115707,raw/NEW_IV_ENC/bench_td_8r_New_IV.log
+NEW_IV_ENC,smt_5r_New_IV.py,PASS,0,0.090400,raw/NEW_IV_ENC/smt_5r_New_IV.log
+NEW_IV_ENC,smt_8r_New_IV.py,PASS,0,0.098908,raw/NEW_IV_ENC/smt_8r_New_IV.log
+NEW_IV_ENC,td_8r_New_IV.py,PASS,0,0.042598,raw/NEW_IV_ENC/td_8r_New_IV.log
+NEW_IV_ENC,td_trunc.py,PASS,0,0.038504,raw/NEW_IV_ENC/td_trunc.log
+Type-1 GFS,smt_run_Type1GFS_15r.py,PASS,0,0.141130,raw/Type-1_GFS/smt_run_Type1GFS_15r.log
+Type-1 GFS,smt_run_Type1GFS_15r_Rrule_xRdelta_to_0s.py,PASS,0,0.136829,raw/Type-1_GFS/smt_run_Type1GFS_15r_Rrule_xRdelta_to_0s.log
+Type-1 GFS,smt_run_Type1GFS_15r_relaxed.py,PASS,0,0.109050,raw/Type-1_GFS/smt_run_Type1GFS_15r_relaxed.log
+Type-1 GFS,smt_run_Type1GFS_15r_relaxed2.py,PASS,0,0.126354,raw/Type-1_GFS/smt_run_Type1GFS_15r_relaxed2.log
+Type-1 GFS,smt_run_Type1GFS_15r_strictRsingle.py,PASS,0,0.136832,raw/Type-1_GFS/smt_run_Type1GFS_15r_strictRsingle.log
+Type-1 GFS,sweep_Type1GFS_15r_round12.py,PASS,0,0.501463,raw/Type-1_GFS/sweep_Type1GFS_15r_round12.log
+Type-1 GFS,sweep_Type1GFS_15r_round12_u1_has_0s.py,PASS,0,0.493359,raw/Type-1_GFS/sweep_Type1GFS_15r_round12_u1_has_0s.log
+Type-1 GFS,td_run_GFS4F_td_only_10r.py,PASS,0,0.042415,raw/Type-1_GFS/td_run_GFS4F_td_only_10r.log
+Type-1 GFS,td_then_smt_Type1GFS_from_r5.py,PASS,0,0.098455,raw/Type-1_GFS/td_then_smt_Type1GFS_from_r5.log
+Type-1 GFS,td_then_smt_Type1GFS_from_r5_fix.py,PASS,0,0.098193,raw/Type-1_GFS/td_then_smt_Type1GFS_from_r5_fix.log
+Type-1 GFS,td_then_smt_Type1GFS_from_r5_noinit.py,PASS,0,0.094520,raw/Type-1_GFS/td_then_smt_Type1GFS_from_r5_noinit.log
+Type-1 GFS,td_then_smt_Type1GFS_from_r5_noinit_bench.py,PASS,0,1.545311,raw/Type-1_GFS/td_then_smt_Type1GFS_from_r5_noinit_bench.log
+Type-1 GFS,td_then_smt_Type1GFS_from_r5_relaxed_bench.py,PASS,0,0.296221,raw/Type-1_GFS/td_then_smt_Type1GFS_from_r5_relaxed_bench.log
+Type-1 GFS,td_then_smt_Type1GFS_full_15r.py,PASS,0,0.301261,raw/Type-1_GFS/td_then_smt_Type1GFS_full_15r.log
+Type-1 GFS,td_trunc.py,PASS,0,0.038992,raw/Type-1_GFS/td_trunc.log

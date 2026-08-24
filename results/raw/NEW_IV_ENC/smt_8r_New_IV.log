@@ -1,0 +1,34 @@
+project: NEW_IV_ENC
+script: smt_8r_New_IV.py
+command: /usr/bin/python3 smt_8r_New_IV.py
+started_utc: 2026-08-24T11:35:55+00:00
+duration_seconds: 0.098908
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+check-sat: sat
+
+=== 每一轮的 SMT symbol ===
+Round 0:  u0=0, u1=0, u2=δ, u3=x
+Round 1:  u0=0, u1=δ, u2=x, u3=0
+Round 2:  u0=δ, u1=x, u2=0, u3=0
+Round 3:  u0=R(δ) ⊕ x, u1=R(δ), u2=0, u3=R(δ)
+Round 4:  u0=R(δ) ⊕ 0s, u1=0s, u2=R(δ), u3=0s
+Round 5:  u0=⊥, u1=⊥, u2=0s, u3=⊥
+Round 6:  u0=⊥, u1=⊥, u2=⊥, u3=⊥
+Round 7:  u0=⊥, u1=⊥, u2=⊥, u3=⊥
+Round 8:  u0=⊥, u1=⊥, u2=⊥, u3=⊥
+
+[判断] 8 轮 NEW_IV_ENC 量子区分器是否存在？ => 否
+
+解密剪枝（仅结构存活集合）：
+Round 8: survivors -> [u0, u1, u2, u3]
+Round 7: survivors -> [u0, u1, u2, u3]
+Round 6: survivors -> [u1, u2, u3]
+Round 5: survivors -> [u2, u3]
+Round 4: survivors -> [u3]
+
+终止：仅剩 u3^4 = 0s ，是否 0s 或 0s⊕*：是
+===== STDERR =====
+(no stderr)

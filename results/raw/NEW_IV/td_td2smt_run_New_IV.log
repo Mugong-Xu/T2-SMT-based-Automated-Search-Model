@@ -1,0 +1,32 @@
+project: NEW_IV
+script: td_td2smt_run_New_IV.py
+command: /usr/bin/python3 td_td2smt_run_New_IV.py
+started_utc: 2026-08-24T11:35:50+00:00
+duration_seconds: 0.098985
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+=== TD 前 5 轮（td_trunc_opt） ===
+Round 1:  u_0=*<fromR_a>, u_1=0, u_2=s, u_3=0
+Round 2:  u_0=0, u_1=*<fromR_a>, u_2=0, u_3=s
+Round 3:  u_0=*, u_1=s, u_2=0_s, u_3=0
+Round 4:  u_0=0, u_1=*, u_2=s, u_3=0_s
+Round 5:  u_0=0_s, u_1=0_s, u_2=*, u_3=s
+
+[SMT checkSat] = sat
+=== SMT 从 Round 6（直接种子）推到 Round 11 ===
+[DEBUG] Round 6 raw BV: ['#b01000', '#b10100', '#b00010', '#b01110']
+Round 6:  u_0=R(x), u_1=0s ⊕ x, u_2=R(δ), u_3=R(x) ⊕ x ⊕ R(δ)
+[DEBUG] Round 7 raw BV: ['#b01000', '#b01110', '#b11010', '#b00010']
+Round 7:  u_0=⊥, u_1=R(x) ⊕ x ⊕ R(δ), u_2=0s ⊕ R(x) ⊕ R(δ), u_3=R(δ)
+[DEBUG] Round 8 raw BV: ['#b00010', '#b01010', '#b01110', '#b11010']
+Round 8:  u_0=R(δ), u_1=⊥, u_2=R(x) ⊕ x ⊕ R(δ), u_3=0s ⊕ R(x) ⊕ R(δ)
+[DEBUG] Round 9 raw BV: ['#b01010', '#b11010', '#b11010', '#b01110']
+Round 9:  u_0=⊥, u_1=0s ⊕ R(x) ⊕ R(δ), u_2=⊥, u_3=R(x) ⊕ x ⊕ R(δ)
+[DEBUG] Round 10 raw BV: ['#b00010', '#b01110', '#b11110', '#b11010']
+Round 10:  u_0=⊥, u_1=⊥, u_2=0s ⊕ R(x) ⊕ x ⊕ R(δ), u_3=⊥
+[DEBUG] Round 11 raw BV: ['#b01010', '#b11010', '#b11110', '#b11110']
+Round 11:  u_0=⊥, u_1=⊥, u_2=⊥, u_3=0s ⊕ R(x) ⊕ x ⊕ R(δ)
+===== STDERR =====
+(no stderr)

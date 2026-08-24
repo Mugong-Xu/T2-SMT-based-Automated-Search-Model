@@ -1,0 +1,22 @@
+project: NEW_IV
+script: td_trunc_New_IV.py
+command: /usr/bin/python3 td_trunc_New_IV.py
+started_utc: 2026-08-24T11:35:50+00:00
+duration_seconds: 0.042065
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+Round 1: u_0 = *<fromR_a>, u_1 = 0, u_2 = s, u_3 = 0
+Round 2: u_0 = 0, u_1 = *<fromR_a>, u_2 = 0, u_3 = s
+Round 3: u_0 = *, u_1 = s, u_2 = 0_s, u_3 = 0
+Round 4: u_0 = 0, u_1 = *, u_2 = s, u_3 = 0_s
+Round 5: u_0 = 0_s, u_1 = 0_s, u_2 = *, u_3 = s
+Round 6: u_0 = *, u_1 = R(a), u_2 = R(a), u_3 = *
+Round 7: u_0 = *, u_1 = *, u_2 = *, u_3 = R(a)
+Round 8: u_0 = *, u_1 = *, u_2 = *, u_3 = *
+Round 9: u_0 = *, u_1 = *, u_2 = *, u_3 = *
+Round 10: u_0 = *, u_1 = *, u_2 = *, u_3 = *
+Round 11: u_0 = *, u_1 = *, u_2 = *, u_3 = *
+===== STDERR =====
+(no stderr)

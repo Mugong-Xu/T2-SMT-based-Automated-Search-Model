@@ -1,0 +1,13 @@
+project: NEW_IV
+script: td_smt_benchmark_New_IV.py
+command: /usr/bin/python3 td_smt_benchmark_New_IV.py
+started_utc: 2026-08-24T11:35:48+00:00
+duration_seconds: 1.504296
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+Final (run 100) Round 11:  u0=⊥, u1=⊥, u2=⊥, u3=0s ⊕ R(x) ⊕ x ⊕ R(δ)
+Average time per run: 14.380 ms over 100 runs
+===== STDERR =====
+(no stderr)

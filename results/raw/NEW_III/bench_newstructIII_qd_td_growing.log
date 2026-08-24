@@ -1,0 +1,25 @@
+project: NEW_III
+script: bench_newstructIII_qd_td_growing.py
+command: /usr/bin/python3 bench_newstructIII_qd_td_growing.py
+started_utc: 2026-08-24T11:35:38+00:00
+duration_seconds: 0.775839
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+TD 锚点：Round 10, 分支 u1
+重复次数: 100
+SMT 结果: unsat
+量子区分器存在?: 否
+解密-剪枝最终分支: None
+对应符号: None
+
+== 平均耗时（秒）==
+构图        : 0.003103
+锚点断言   : 0.000016
+求解 (SMT) : 0.002606
+总耗时     : 0.005725
+
+整体耗时(含循环开销): 0.670850 s
+===== STDERR =====
+(no stderr)

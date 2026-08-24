@@ -1,0 +1,13 @@
+project: Type-1 GFS
+script: td_then_smt_Type1GFS_from_r5_noinit_bench.py
+command: /usr/bin/python3 td_then_smt_Type1GFS_from_r5_noinit_bench.py
+started_utc: 2026-08-24T11:35:57+00:00
+duration_seconds: 1.545311
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+[check-sat(last)] = UNSAT/UNKNOWN
+Average time per run over 100 runs: 14.313 ms
+===== STDERR =====
+(no stderr)

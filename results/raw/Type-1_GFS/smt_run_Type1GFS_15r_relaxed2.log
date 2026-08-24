@@ -1,0 +1,29 @@
+project: Type-1 GFS
+script: smt_run_Type1GFS_15r_relaxed2.py
+command: /usr/bin/python3 smt_run_Type1GFS_15r_relaxed2.py
+started_utc: 2026-08-24T11:35:56+00:00
+duration_seconds: 0.126354
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+[check-sat] = sat
+Round 0:  u0^0=x, u1^0=δ, u2^0=0, u3^0=0
+Round 1:  u0^1=0, u1^1=x, u2^1=δ, u3^1=0
+Round 2:  u0^2=0, u1^2=0, u2^2=x, u3^2=δ
+Round 3:  u0^3=δ, u1^3=R(δ), u2^3=0, u3^3=x
+Round 4:  u0^4=x, u1^4=δ ⊕ R(x), u2^4=R(δ), u3^4=0
+Round 5:  u0^5=0, u1^5=x, u2^5=δ ⊕ R(x), u3^5=R(δ)
+Round 6:  u0^6=R(δ), u1^6=R(δ), u2^6=x, u3^6=δ ⊕ R(x)
+Round 7:  u0^7=δ ⊕ R(x), u1^7=⊥, u2^7=R(δ), u3^7=x
+Round 8:  u0^8=x, u1^8=δ ⊕ R(x), u2^8=⊥, u3^8=R(δ)
+Round 9:  u0^9=R(δ), u1^9=R(δ) ⊕ x, u2^9=δ ⊕ R(x), u3^9=⊥
+Round 10:  u0^10=⊥, u1^10=⊥, u2^10=R(δ) ⊕ x, u3^10=δ ⊕ R(x)
+Round 11:  u0^11=δ ⊕ R(x), u1^11=⊥, u2^11=⊥, u3^11=R(δ) ⊕ x
+Round 12:  u0^12=R(δ) ⊕ x, u1^12=⊥, u2^12=⊥, u3^12=⊥
+[DEBUG] Round 12 raw BV: ['#b00110', '⊥', '⊥', '⊥']
+Round 13:  u0^13=⊥, u1^13=⊥, u2^13=⊥, u3^13=⊥
+Round 14:  u0^14=⊥, u1^14=⊥, u2^14=⊥, u3^14=⊥
+Round 15:  u0^15=⊥, u1^15=⊥, u2^15=⊥, u3^15=⊥
+===== STDERR =====
+(no stderr)

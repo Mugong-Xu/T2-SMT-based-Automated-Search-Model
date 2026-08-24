@@ -1,0 +1,17 @@
+project: NEW_III
+script: td_trunc.py
+command: /usr/bin/python3 td_trunc.py
+started_utc: 2026-08-24T11:35:44+00:00
+duration_seconds: 0.039982
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+Round 0: u0=0, u1=0, u2=a[a_flag=0], u3=s
+Round 1: u0=0, u1=a[a_flag=0], u2=0_s, u3=0
+Round 2: u0=a[a_flag=0], u1=0_s, u2=0_s, u3=0
+Round 3: u0=*, u1=0_s, u2=0_s, u3=a[a_flag=0]
+Round 4: u0=*, u1=0_s, u2=a[a_flag=1], u3=*
+Round 5: u0=*, u1=a[a_flag=0], u2=*, u3=*
+===== STDERR =====
+(no stderr)

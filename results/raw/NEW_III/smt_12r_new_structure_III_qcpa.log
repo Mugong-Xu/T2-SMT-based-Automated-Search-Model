@@ -1,0 +1,131 @@
+project: NEW_III
+script: smt_12r_new_structure_III_qcpa.py
+command: /usr/bin/python3 smt_12r_new_structure_III_qcpa.py
+started_utc: 2026-08-24T11:35:44+00:00
+duration_seconds: 0.121789
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+check-sat: sat
+包含量子区分器？ 是
+
+Round 0:
+u0^0: #b00001  => δ
+u1^0: #b00100  => x
+u2^0: #b00000  => 0
+u3^0: #b00000  => 0
+
+Round 1:
+u0^1: #b00000  => 0
+u1^1: #b00010  => R(δ)
+u2^1: #b00110  => R(δ) ⊕ x
+u3^1: #b00000  => 0
+
+Round 2:
+u0^2: #b00000  => 0
+u1^2: #b00000  => 0
+u2^2: #b00010  => R(δ)
+u3^2: #b00110  => R(δ) ⊕ x
+
+Round 3:
+u0^3: #b00110  => R(δ) ⊕ x
+u1^3: #b00000  => 0
+u2^3: #b00000  => 0
+u3^3: #b00010  => R(δ)
+
+Round 4:
+u0^4: #b00010  => R(δ)
+u1^4: #b10000  => 0s
+u2^4: #b10000  => 0s
+u3^4: #b00000  => 0
+
+Round 5:
+u0^5: #b00000  => 0
+u1^5: #b00010  => R(δ)
+u2^5: #b10010  => R(δ) ⊕ 0s
+u3^5: #b10000  => 0s
+
+Round 6:
+u0^6: #b10000  => 0s
+u1^6: #b00000  => 0
+u2^6: #b00010  => R(δ)
+u3^6: #b10010  => R(δ) ⊕ 0s
+
+Round 7:
+u0^7: #b10010  => R(δ) ⊕ 0s
+u1^7: #b10000  => 0s
+u2^7: #b10000  => 0s
+u3^7: #b00010  => R(δ)
+
+Round 8:
+u0^8: #b00010  => R(δ)
+u1^8: ⊥
+u2^8: ⊥
+u3^8: #b10000  => 0s
+
+Round 9:
+u0^9: #b10000  => 0s
+u1^9: #b00010  => R(δ)
+u2^9: ⊥
+u3^9: ⊥
+
+Round 10:
+u0^10: ⊥
+u1^10: #b10000  => 0s
+u2^10: #b10010  => R(δ) ⊕ 0s
+u3^10: ⊥
+
+Round 11:
+u0^11: ⊥
+u1^11: ⊥
+u2^11: ⊥
+u3^11: #b10010  => R(δ) ⊕ 0s
+
+Round 12:
+u0^12: #b10010  => R(δ) ⊕ 0s
+u1^12: ⊥
+u2^12: ⊥
+u3^12: ⊥
+
+R 触发位 s_i：
+  s[0] = false
+  s[1] = false
+  s[2] = false
+  s[3] = true
+  s[4] = false
+  s[5] = false
+  s[6] = false
+  s[7] = false
+  s[8] = false
+  s[9] = false
+  s[10] = false
+  s[11] = false
+R 混合位 mix_i：
+  mix[0] = false
+  mix[1] = false
+  mix[2] = false
+  mix[3] = true
+  mix[4] = false
+  mix[5] = false
+  mix[6] = false
+  mix[7] = false
+  mix[8] = false
+  mix[9] = false
+  mix[10] = false
+  mix[11] = false
+XOR 碰撞位 xflag_i：
+  xflag[0] = false
+  xflag[1] = false
+  xflag[2] = false
+  xflag[3] = false
+  xflag[4] = false
+  xflag[5] = false
+  xflag[6] = false
+  xflag[7] = false
+  xflag[8] = true
+  xflag[9] = false
+  xflag[10] = false
+  xflag[11] = false
+===== STDERR =====
+(no stderr)

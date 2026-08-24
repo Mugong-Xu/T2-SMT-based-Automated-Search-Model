@@ -1,0 +1,14 @@
+project: GFS-4F
+script: td2smt_GFS4F_r0to10_assert_r4_bench.py
+command: /usr/bin/python3 td2smt_GFS4F_r0to10_assert_r4_bench.py
+started_utc: 2026-08-24T11:34:51+00:00
+duration_seconds: 19.842654
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+[check-sat] = SAT
+Round 10: u0=R(δ) ⊕ 0s, u1=⊥, u2=⊥, u3=⊥, u4=⊥, u5=⊥, u6=⊥, u7=⊥
+Average time per run: 191.767 ms over 100 runs
+===== STDERR =====
+(no stderr)

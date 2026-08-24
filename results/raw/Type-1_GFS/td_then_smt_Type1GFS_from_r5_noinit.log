@@ -1,0 +1,21 @@
+project: Type-1 GFS
+script: td_then_smt_Type1GFS_from_r5_noinit.py
+command: /usr/bin/python3 td_then_smt_Type1GFS_from_r5_noinit.py
+started_utc: 2026-08-24T11:35:57+00:00
+duration_seconds: 0.094520
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+== TD 0..5 轮输出 ==
+Round 0 : u0=s, u1=a[a_flag=0], u2=0, u3=0
+Round 1 : u0=0, u1=s, u2=a[a_flag=0], u3=0
+Round 2 : u0=0, u1=0, u2=s, u3=a[a_flag=0]
+Round 3 : u0=a[a_flag=0], u1=*, u2=0, u3=s
+Round 4 : u0=s, u1=*, u2=*, u3=0
+Round 5 : u0=0, u1=s, u2=*, u3=*
+
+[SMT checkSat] = unsat
+UNSAT/UNKNOWN，无法打印后续轮。
+===== STDERR =====
+(no stderr)

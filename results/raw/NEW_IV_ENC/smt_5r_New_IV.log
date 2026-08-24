@@ -1,0 +1,41 @@
+project: NEW_IV_ENC
+script: smt_5r_New_IV.py
+command: /usr/bin/python3 smt_5r_New_IV.py
+started_utc: 2026-08-24T11:35:55+00:00
+duration_seconds: 0.090400
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+Round 0:
+u0^0: 0
+u1^0: 0
+u2^0: δ
+u3^0: x
+Round 1:
+u0^1: 0
+u1^1: δ
+u2^1: x
+u3^1: 0
+Round 2:
+u0^2: δ
+u1^2: x
+u2^2: 0
+u3^2: 0
+Round 3:
+u0^3: R(δ) ⊕ x
+u1^3: R(δ)
+u2^3: 0
+u3^3: R(δ)
+Round 4:
+u0^4: R(δ) ⊕ 0s
+u1^4: 0s
+u2^4: R(δ)
+u3^4: 0s
+Round 5:
+u0^5: ⊥
+u1^5: ⊥
+u2^5: 0s
+u3^5: ⊥
+===== STDERR =====
+(no stderr)

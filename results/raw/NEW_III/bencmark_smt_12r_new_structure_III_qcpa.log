@@ -1,0 +1,21 @@
+project: NEW_III
+script: bencmark_smt_12r_new_structure_III_qcpa.py
+command: /usr/bin/python3 bencmark_smt_12r_new_structure_III_qcpa.py
+started_utc: 2026-08-24T11:35:39+00:00
+duration_seconds: 4.638947
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+执行次数: 100
+平均耗时: 0.045735 秒
+check-sat: sat
+包含量子区分器？ 是
+
+最后一轮（Round 12）符号:
+u0^12: #b10010  => R(δ) ⊕ 0s
+u1^12: ⊥
+u2^12: ⊥
+u3^12: ⊥
+===== STDERR =====
+(no stderr)

@@ -1,0 +1,22 @@
+project: NEW_II
+script: bench_verify_newstruct6.py
+command: /usr/bin/python3 bench_verify_newstruct6.py
+started_utc: 2026-08-24T11:35:15+00:00
+duration_seconds: 3.223541
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+重复次数: 100
+找到安全锚点: 100/100
+SAT 次数   : 100/100
+
+== 平均耗时（秒）==
+td_trunc 模拟: 0.000036
+锚点选择   : 0.000010
+构图        : 0.005270
+锚点断言   : 0.000025
+求解 (SMT) : 0.020388
+总耗时     : 0.025730
+===== STDERR =====
+(no stderr)

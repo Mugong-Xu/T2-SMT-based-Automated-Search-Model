@@ -1,0 +1,21 @@
+project: Type-1 GFS
+script: sweep_Type1GFS_15r_round12_u1_has_0s.py
+command: /usr/bin/python3 sweep_Type1GFS_15r_round12_u1_has_0s.py
+started_utc: 2026-08-24T11:35:56+00:00
+duration_seconds: 0.493359
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+[NO CONFIG FOUND] No config where u1^12 contains 0s-bit.
+Tried configs summary:
+  sum1=True, guard=True, collisions=True -> MISS; raw=['#b00110', '#b01000', '#b11000', '#b00000']
+  sum1=True, guard=True, collisions=False -> MISS; raw=['#b00110', '#b01011', '#b10011', '#b00010']
+  sum1=True, guard=False, collisions=True -> MISS; raw=['#b00110', '#b01100', '#b11100', '#b00000']
+  sum1=True, guard=False, collisions=False -> MISS; raw=['#b00110', '#b01001', '#b10011', '#b00010']
+  sum1=False, guard=True, collisions=True -> MISS; raw=['#b00110', '#b01000', '#b01001', '#b01010']
+  sum1=False, guard=True, collisions=False -> MISS; raw=['#b00110', '#b01011', '#b01011', '#b01010']
+  sum1=False, guard=False, collisions=True -> MISS; raw=['#b00110', '#b01100', '#b01011', '#b01010']
+  sum1=False, guard=False, collisions=False -> MISS; raw=['#b00110', '#b01011', '#b01011', '#b01011']
+===== STDERR =====
+(no stderr)

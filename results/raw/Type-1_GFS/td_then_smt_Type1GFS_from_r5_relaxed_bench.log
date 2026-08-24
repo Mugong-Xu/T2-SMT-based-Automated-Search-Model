@@ -1,0 +1,14 @@
+project: Type-1 GFS
+script: td_then_smt_Type1GFS_from_r5_relaxed_bench.py
+command: /usr/bin/python3 td_then_smt_Type1GFS_from_r5_relaxed_bench.py
+started_utc: 2026-08-24T11:35:59+00:00
+duration_seconds: 0.296221
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+[check-sat(last)] = SAT
+Round 15: u0=δ ⊕ R(δ) ⊕ R(x), u1=0, u2=0, u3=x ⊕ R(x)
+Average time per run over 100 runs: 2.233 ms
+===== STDERR =====
+(no stderr)

@@ -1,0 +1,19 @@
+project: NEW_II
+script: bench_newstruct6_qd.py
+command: /usr/bin/python3 bench_newstruct6_qd.py
+started_utc: 2026-08-24T11:35:12+00:00
+duration_seconds: 3.260697
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+重复次数: 100
+SAT 次数: 100/100
+
+== 平均耗时（秒）==
+构图        : 0.005324
+初值断言   : 0.000017
+求解 (SMT) : 0.021115
+总耗时     : 0.026456
+===== STDERR =====
+(no stderr)

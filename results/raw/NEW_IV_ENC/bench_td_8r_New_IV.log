@@ -1,0 +1,19 @@
+project: NEW_IV_ENC
+script: bench_td_8r_New_IV.py
+command: /usr/bin/python3 bench_td_8r_New_IV.py
+started_utc: 2026-08-24T11:35:55+00:00
+duration_seconds: 0.115707
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+=== NEW_IV_ENC（8轮）TD-only Benchmark ===
+重复次数: 100
+量子区分器存在?: 是
+
+== 平均耗时（秒）==
+8轮仿真平均: 0.000036
+
+整体耗时(含循环开销): 0.065527 s
+===== STDERR =====
+(no stderr)

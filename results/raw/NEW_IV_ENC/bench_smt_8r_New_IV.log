@@ -1,0 +1,14 @@
+project: NEW_IV_ENC
+script: bench_smt_8r_New_IV.py
+command: /usr/bin/python3 bench_smt_8r_New_IV.py
+started_utc: 2026-08-24T11:35:52+00:00
+duration_seconds: 2.917064
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+量子区分器是否存在: 是
+终止：仅剩 u3^4 = 0s ，是否 0s 或 0s⊕*：是
+平均执行时间: 28.496 ms / run over 100 runs
+===== STDERR =====
+(no stderr)

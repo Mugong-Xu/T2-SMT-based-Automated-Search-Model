@@ -1,0 +1,12 @@
+project: Type-1 GFS
+script: smt_run_Type1GFS_15r_strictRsingle.py
+command: /usr/bin/python3 smt_run_Type1GFS_15r_strictRsingle.py
+started_utc: 2026-08-24T11:35:56+00:00
+duration_seconds: 0.136832
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+[check-sat] = unsat
+===== STDERR =====
+(no stderr)

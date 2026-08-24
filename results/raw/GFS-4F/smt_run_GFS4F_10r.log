@@ -1,0 +1,147 @@
+project: GFS-4F
+script: smt_run_GFS4F_10r.py
+command: /usr/bin/python3 smt_run_GFS4F_10r.py
+started_utc: 2026-08-24T11:34:31+00:00
+duration_seconds: 0.401583
+status: PASS
+exit_code: 0
+
+===== STDOUT =====
+check-sat: sat
+Round 0:  u0=x, u1=δ, u2=0, u3=0, u4=0, u5=0, u6=0, u7=0
+Round 1:  u0=0, u1=x, u2=δ, u3=0, u4=0, u5=0, u6=0, u7=0
+Round 2:  u0=0, u1=0, u2=x, u3=δ, u4=0, u5=0, u6=0, u7=0
+Round 3:  u0=0, u1=0, u2=0, u3=x, u4=δ, u5=0, u6=0, u7=0
+Round 4:  u0=0, u1=0, u2=0, u3=0, u4=R(δ) ⊕ x, u5=δ, u6=0, u7=0
+Round 5:  u0=0, u1=0, u2=0, u3=R(δ), u4=0s, u5=R(δ) ⊕ x, u6=δ, u7=0
+Round 6:  u0=0, u1=0, u2=R(δ), u3=⊥, u4=R(δ) ⊕ 0s, u5=0s, u6=R(δ) ⊕ x, u7=δ
+Round 7:  u0=δ, u1=R(δ), u2=⊥, u3=R(δ) ⊕ 0s, u4=⊥, u5=R(δ) ⊕ 0s, u6=0s, u7=R(δ) ⊕ x
+Round 8:  u0=R(δ) ⊕ x, u1=⊥, u2=R(δ) ⊕ 0s, u3=⊥, u4=⊥, u5=⊥, u6=R(δ) ⊕ 0s, u7=0s
+Round 9:  u0=0s, u1=R(δ) ⊕ x ⊕ 0s, u2=⊥, u3=⊥, u4=⊥, u5=⊥, u6=⊥, u7=R(δ) ⊕ 0s
+Round 10:  u0=R(δ) ⊕ 0s, u1=⊥, u2=⊥, u3=⊥, u4=⊥, u5=⊥, u6=⊥, u7=⊥
+
+R flags s_i:
+  s[0] = false
+  s[1] = false
+  s[2] = false
+  s[3] = false
+  s[4] = false
+  s[5] = false
+  s[6] = false
+  s[7] = false
+  s[8] = false
+  s[9] = false
+  s[10] = false
+  s[11] = false
+  s[12] = false
+  s[13] = false
+  s[14] = false
+  s[15] = false
+  s[16] = false
+  s[17] = false
+  s[18] = false
+  s[19] = true
+  s[20] = false
+  s[21] = false
+  s[22] = false
+  s[23] = false
+  s[24] = false
+  s[25] = false
+  s[26] = false
+  s[27] = false
+  s[28] = false
+  s[29] = false
+  s[30] = false
+  s[31] = false
+  s[32] = false
+  s[33] = false
+  s[34] = false
+  s[35] = false
+  s[36] = false
+  s[37] = false
+  s[38] = false
+  s[39] = false
+mix flags:
+  mix[0] = false
+  mix[1] = false
+  mix[2] = false
+  mix[3] = false
+  mix[4] = false
+  mix[5] = false
+  mix[6] = false
+  mix[7] = false
+  mix[8] = false
+  mix[9] = false
+  mix[10] = false
+  mix[11] = false
+  mix[12] = false
+  mix[13] = false
+  mix[14] = false
+  mix[15] = false
+  mix[16] = false
+  mix[17] = false
+  mix[18] = false
+  mix[19] = true
+  mix[20] = false
+  mix[21] = false
+  mix[22] = true
+  mix[23] = false
+  mix[24] = false
+  mix[25] = true
+  mix[26] = false
+  mix[27] = false
+  mix[28] = true
+  mix[29] = false
+  mix[30] = false
+  mix[31] = false
+  mix[32] = false
+  mix[33] = false
+  mix[34] = false
+  mix[35] = false
+  mix[36] = false
+  mix[37] = false
+  mix[38] = false
+  mix[39] = false
+xor flags:
+  xflag[0] = false
+  xflag[1] = false
+  xflag[2] = false
+  xflag[3] = false
+  xflag[4] = false
+  xflag[5] = false
+  xflag[6] = false
+  xflag[7] = false
+  xflag[8] = false
+  xflag[9] = false
+  xflag[10] = false
+  xflag[11] = false
+  xflag[12] = false
+  xflag[13] = false
+  xflag[14] = false
+  xflag[15] = false
+  xflag[16] = false
+  xflag[17] = false
+  xflag[18] = false
+  xflag[19] = false
+  xflag[20] = false
+  xflag[21] = false
+  xflag[22] = false
+  xflag[23] = false
+  xflag[24] = false
+  xflag[25] = false
+  xflag[26] = false
+  xflag[27] = true
+  xflag[28] = true
+  xflag[29] = false
+  xflag[30] = true
+  xflag[31] = false
+  xflag[32] = false
+  xflag[33] = false
+  xflag[34] = false
+  xflag[35] = false
+  xflag[36] = false
+  xflag[37] = false
+  xflag[38] = true
+  xflag[39] = false
+===== STDERR =====
+(no stderr)
